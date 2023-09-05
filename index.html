@@ -1,19 +1,329 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="Es" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sigmio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="h-100 p-5 text-bg-dark rounded-3 m-3">
-        <h2>Github Pages</h2>
-        <p>Master landing</p>
-        <button class="btn btn-outline-light" disabled type="button">Por el momento nada por aqui..</button>
-    </div>
 
+    <link rel="icon" type="image/x-icon" href="/img/sigmio_favicon.ico">
+
+    <!-- Vincular archivo CSS de AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="index_style.css">
+
+    <script src="myjs.js"></script>
+
+</head>
+<body>
+
+    <main class="main-grid">
+
+        <!-- head -->
+
+        <div class="main-head">
+            <img id="logo" class="" src="/img/sigmio_svg_animate.svg" alt="">
+        </div>
+
+        <!-- menu -->
+
+        <div class="main-menu">
+
+            <div class="c-link">
+                <a href="#top"><img class="link-icon" src="/img/house.svg" alt=""></a>
+            </div>
+
+            <div class="c-link">
+                <a id="l2" href="#info"><img class="link-icon" src="/img/circle-info.svg" alt=""></a>
+            </div>
+
+            <div class="c-link">
+                <a href="#recursos" class=""><img class="link-icon" src="/img/suitcase.svg" alt=""></a>
+            </div>
+
+            <div class="c-link">
+                <a href="#contacto" class=""><img class="link-icon" src="/img/square-envelope.svg" alt=""></a>
+            </div>
+
+        </div>
+
+        <!-- welcome -->
+
+        <div class="main-welcome" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1700">
+
+            <p class="">Desarrollo freelance de herramientas, aplicaciones y sistemas 
+                con el objetivo de optimizar procedimientos de trabajo.</p>
+
+
+            <p class="">Trabajo focalizado en el cliente para entender sus necesidades
+                    y diseñar soluciones adaptadas a la medida de sus requerimientos.</p>
+            
+        </div>
+
+        <div class="main-acerca" id="info">
+            <div class="div1"><h2>... ¿Quien soy? ...</h2></div>
+            <div class="div2">
+                <img src="./img/location.png" alt="" class="pres-img">
+            </div>
+            <div class="div3">
+                <div class="text-area" data-aos="fade-left" data-aos-duration="800">
+                    <p>Soy de Buenos Aires, Argentina y me dedico al desarrollo de software orientado a la optimización de procedimientos.</p>
+                    <p>Sigmio fue creado con el fin de dar a conocer mis experiencias y transmitir los conceptos principales utilizados en mi trabajo.</p>
+                    
+                </div>
+            </div>
+            <div class="div4">
+                <img src="./img/tecnologias.png" alt="" class="pres-img">
+            </div>
+            <div class="div5">
+                <div class="text-area" data-aos="fade-right" data-aos-duration="800">
+                    <p>Python es la columna vertebral en mis desarrollos, sin embargo, utilizo diferentes lenguajes, recursos y tecnologías según las características de cada caso.</p>
+                    <p>Me encuentro en un constante proceso de formación e investigación acerca de nuevas tecnologías y tendencias.</p>
+                </div>
+            </div>
+            <div class="div6">
+                <img src="./img/piensa_ideas.png" alt="" class="pres-img">
+            </div>
+            <div class="div7">
+                <div class="text-area" data-aos="fade-left" data-aos-duration="800">
+                    <p>La planificación y análisis es fundamental.<br>
+                        Se basa en comprender la problemática y objetivos del cliente para acordar y establecer en conjunto las estrategias a utilizar en los proyectos.</p>
+                    <p>Se promueven soluciones personalizadas, manteniéndolo informado e integrándolo activamente en las diferentes etapas de los desarrollos.<br>
+                        El objetivo principal es garantizar resultados que respondan a sus necesidades.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-proyectos" id="recursos">
+            <h2>... ¿De que se trata? ...</h2>
+
+
+            <!-- SECCION -->
+            <div class="main-section" data-aos="zoom-in" data-aos-duration="650">
+
+                <div class="sec-titulo">
+                    <img src="./img/automatizacion_tareas.png" alt="">
+                    <h3>AUTOMATIZACION DE TAREAS</h3>
+                </div>
+
+                <div class="sec-desc">
+                    <p>La automatización es un gran aliado a la hora de simplificar tareas repetitivas y escenarios previsibles dentro de nuestro trabajo.</p>
+                    <p>Este tipo de herramientas se basan en emular interacciones de usuario actuando en base  a reglas y condiciones preestablecidas.</p>
+                    <p>Puede ser aplicada sobre una gran variedad de áreas y ámbitos.</p>
+                </div>
+
+                <div class="sec-ap">
+
+                    <div>
+                        <h4>Automatización web</h4>
+                        <p>Manipulación del navegador web y aplicaciones online.</p>
+                        <p class="etiquetas">
+                            <span>Logins</span>
+                            <span>Descargas</span>
+                            <span>Registros</span>
+                            <span>Consultas</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Automatización local</h4>
+                        <p>Interacción con programas y sistemas ejecutados a nivel local.</p>
+                        <p class="etiquetas">
+                            <span>Data-entry</span>
+                            <span>ERP</span>
+                            <span>Conciliación</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Flujos de trabajo</h4>
+                        <p>Optimización de componentes en procedimientos complejos.</p>
+                        <p class="etiquetas">
+                            <span>Reportes</span>
+                            <span>Plantillas</span>
+                            <span>Compilación</span>
+                            <span>Gestión</span>
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="sec-profit"><img src="./img/profit-auto.png" alt=""></div>
+
+            </div>
+
+
+            <!-- SECCION -->
+            <div class="main-section" data-aos="zoom-in" data-aos-duration="650">
+
+                <div class="sec-titulo">
+                    <img src="./img/analisis_datos.png" alt="">
+                    <h3>ANALISIS DE DATOS</h3>
+                </div>
+
+                <div class="sec-desc">
+                    <p>Transformación de datos en recursos útiles...</p>
+                    <p>Una mejor gestión de la información nos permite tomar decisiones más inteligentes y estratégicas en la búsqueda de mejores resultados y mayores beneficios.</p>
+                </div>
+
+                <div class="sec-ap">
+
+                    <div>
+                        <h4>Gestión, segmentación y modelado sobre grandes volúmenes de datos</h4>
+                        <p></p>
+                        <p class="etiquetas">
+                            <span># DBs</span>
+                            <span>@ Querys</span>
+                            <span>/ Filtros</span>
+                            <span>|| Relaciones</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Patrones y tendencias para la toma de decisiones informadas.</h4>
+                        <p></p>
+                        <p class="etiquetas">
+                            <span>Estrategia</span>
+                            <span>Proyecciones</span>
+                            <span>Orientación</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Gráficos y estadística para el análisis de información</h4>
+                        <p></p>
+                        <p class="etiquetas">
+                            <span>Dashboard</span>
+                            <span>Ventas</span>
+                            <span>Compras</span>
+                            <span>Inventarios</span>
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="sec-profit"><img src="./img/profit-analisis.png" alt=""></div>
+
+            </div>
+
+            <!-- SECCION -->
+            <div class="main-section" data-aos="zoom-in" data-aos-duration="650">
+
+                <div class="sec-titulo">
+                    <img src="./img/interfaz_usuario.png" alt="">
+                    <h3>INTERFACES DE USUARIO</h3>
+                </div>
+
+                <div class="sec-desc">
+                    <p>Las interfaces de usuario en muchos casos conforman un rol clave para aumentar la productividad en los procedimientos.</p>
+                    <p>Aplicando principios de usabilidad y alto rendimiento, se logran interfaces optimizadas que se adapten a los objetivos del usuario.</p>
+                    <p>Es importante comprender los ámbitos de ejecución de los programas y  de esa forma diseñar las interfaces según su objetivo de uso.</p>
+                    <p>En casos de uso exhaustivo un atajo de teclado logra marcar la diferencia..</p>
+                </div>
+
+                <div class="sec-ap">
+
+                    <div>
+                        <h4>Interfaces web</h4>
+                        <p>Aplicaciones web ejecutadas en el explorador.</p>
+                        <br>
+                        <p>Despliegue tanto en servidores locales como en servidores web.</p>
+                        <p class="etiquetas">
+                            <span>Flask</span>
+                            <span>Django</span>
+                            <span>Reflex</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Interfaces de escritorio</h4>
+                        <p>Aplicaciones ejecutadas a nivel local.</p>
+                        <br>
+                        <p>Utilizando tecnologías del framework QT de C++, ampliamente reconocido en la industria del software.</p>
+                        <p class="etiquetas">
+                            <span>PyQt5</span>
+                            <span>C++ en Python</span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Ejecución en consola</h4>
+                        <p>Aplicaciones ejecutadas en consola.</p>
+                        <br>
+                        <p>Aplica a procedimientos que no requieren necesariamente del desarrollo de una interfaz gráfica.</p>
+                        <p class="etiquetas">
+                            <span>CMD</span>
+                            <span>Bash</span>
+                            <span>Console</span>
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="sec-profit"><img src="./img/profit-inter.png" alt=""></div>
+
+            </div>
+
+        </div>
+
+        <div class="main-contacto" id="contacto">
+            <h2>... ¿Contacto? ...</h2>
+            <div>
+                <p>Esta interesado en algún servicio o le gustaría obtener mas información?</p>
+                <p>Me encuentro a disposición para responder a sus consultas.</p>
+                <p>No dude en escribirme y ponernos en contacto!</p>
+                <p class="mail" data-aos="flip-up" data-aos-duration="850"><img src="./img/contacto_email.png" /></p>
+            </div>
+
+        </div>
+
+        <div class="main-footer">
+            <p>www.sigmio.com.ar</p>
+        </div>
+
+    </main>
+
+
+
+<!-- Vincular archivo Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function () {
+		// Add smooth scrolling to all links
+		$("a").on('click', function (event) {
+
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 1000, function () {
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			} // End if
+		});
+	});
+</script>
+
+<!-- Vincular AOS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
