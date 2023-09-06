@@ -42,7 +42,8 @@ h2{
 
 .main-head{
     text-align: center;
-    margin-top: 40px;
+    margin: 40px auto 0;
+    max-width: 600px;
 }
 
 #logo{
@@ -89,17 +90,17 @@ h2{
 
 
 .main-welcome{
-    margin-top: 40px;
+    margin: 40px auto 0;
     min-height: calc(100vh - 400px);
     text-align: center;
+    max-width: 600px;
 }
 
 .main-welcome p{
     margin-top: 15px;
-    max-width: 600px;
-    margin: 15px auto 0;
     padding: 0 40px;
     line-height: 2;
+    max-width: 600px;
 }
 
 
@@ -282,10 +283,10 @@ h2{
 
 }
 
-.main-contacto{
+.main-contacto {
     margin: 0 auto;
+    width: 100%;
     max-width: 600px;
-    min-height: 120vh;
     padding: 95px 0;
 }
 
@@ -303,7 +304,7 @@ h2{
 }
 
 .main-contacto .mail{
-    margin-top: 25px;
+    margin: 25px 0;
 }
 
 .main-footer {
@@ -319,6 +320,32 @@ h2{
     font-size: 12px;
 }
 
+@media (min-width: 1285px){
 
+    .main-welcome{
+        max-width: 900px;
+    }
+
+    .main-acerca {
+        max-width: 900px;
+    }
+
+    .main-proyectos {
+        max-width: 900px;
+    }
+
+    .main-contacto {
+        max-width: 900px;
+    }
+
+    .main-footer{
+        max-width: 900px;
+    }
+
+    h2 {
+        max-width: 900px;
+    }
+
+}
 
 
