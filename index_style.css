@@ -292,19 +292,22 @@ h2{
 
 .main-contacto h2{
     text-align: center;
-    margin-bottom: 65px;
-
+    margin-bottom: 75px;
 }
 
 .main-contacto p{
     text-align: center;
     padding: 20px;
     line-height: 20px;
+}
 
+.main-contacto p img{
+    display: block;
+    margin: 30px auto;
 }
 
 .main-contacto .mail{
-    margin: 25px 0;
+    margin: 10px 0;
 }
 
 .main-footer {
